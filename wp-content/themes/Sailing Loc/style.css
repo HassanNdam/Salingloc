@@ -1,14 +1,29 @@
 /*
-Theme Name : Sailing Loc, la voile pour tous !
-Theme URI : allinone-ad.com
-Author : Hassan & Caroline & Mohamed
-Author URI: Sailing loc
-Description :  SailingLoc est un nouveau service de location de bateaux à moteur et de voiliers entre particuliers. Projet de développement et d'édition d'un thème Wordpress pour le lancement de l'activité dans le cadre de la validation du titre RNCP 6 pour Chef de projet digital, Digital School of Paris/Institut F2I.
-Requirer at least :  WordPress 6.0 
-Version : 1.0
+Theme Name:Sailing Loc, la voile pour tous !
+Theme URI:allinone-ad.com
+Author:Hassan & Caroline & Mohamed
+Author URI:Sailing loc
+Description:SailingLoc est un nouveau service de location de bateaux à moteur et de voiliers entre particuliers. Projet de développement et d'édition d'un thème Wordpress pour le lancement de l'activité dans le cadre de la validation du titre RNCP 6 pour Chef de projet digital, Digital School of Paris/Institut F2I.
+Requirer at least:WordPress 6.0 
+Version:1.0
+
+Charte couleurs: 
+
+- Bleu 1 : #0669BF
+- Bleu 2 : #4BA4F2
+- Jaune :  #F6C22D
+- Orange : #F27507
+- Gris : #F2F2F2
+
+Typo : Montserrat
+
 */
+
+
+@import url('https://fonts.cdnfonts.com/css/montserrat');
 
 
 body{
     margin: 0;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }

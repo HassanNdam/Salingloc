@@ -1,9 +1,7 @@
 
 <?php get_header(); ?> 
 
-
-<?php echo "test"; ?> 
-
+<?php echo 'testsgfggggggggggggggggggggggggggggggggggggggg'; ?> 
 
 <?php get_footer(); ?> 
 
