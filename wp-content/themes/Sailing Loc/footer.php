@@ -1,5 +1,6 @@
 <!-- Avant footer - Newsletter -->
 
+
 <div class="container  mb-3">
     <p class="fs-1 mb-4">Inscrivez-vous sur notre <span class="jaune">Newsletter</span> : 10% de réduction sur votre
         première réservation
@@ -84,7 +85,16 @@
             </div>
 
             <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-                <p>&copy; <?php echo Date('Y') ?> SailingLoc, Tous droits réservés.</p>
+                <p>
+                    <span class="text-italic">Vos données sont protégées </span>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-rgpd.png"
+                        class="img-fluid" alt="Logo - RGPD" width="50" height="50"
+                        title="Vos données sont protégées chez SailingLoc">
+                </p>
+                <p>
+                    &copy; <?php echo Date('Y') ?>
+                    SailingLoc, Tous droits réservés.
+                </p>
                 <ul class="list-unstyled d-flex">
                     <li class="ms-2"><a href="#"><img
                                 src="<?php echo get_template_directory_uri(); ?>/assets/icone/tiktok.png"
