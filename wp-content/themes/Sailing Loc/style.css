@@ -11,6 +11,7 @@ Charte couleurs:
 
 - Bleu 1 : #0669BF
 - Bleu 2 : #4BA4F2
+- Bleu plus foncé (footer) : #07474f
 - Jaune :  #F6C22D
 - Orange : #F27507
 - Gris : #F2F2F2
@@ -36,11 +37,36 @@ Typo : Montserrat
     color: white;
 }
 
+.bleu1 {
+    color:#0669BF ;
+}
+
+.bleu2 {
+    color: #4BA4F2;
+}
+
+.bleu3 {
+    color:#07474f ;
+}
+
+.jaune{
+    color: #F6C22D;
+}
+
+.orange{
+    color:#F27507;
+}
+
+.gris{
+    color:#F2F2F2
+}
+
+
 
 body {
-    margin: 0;
-    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif !important ;
 }
+
 
 /* Avant-Header */
 
@@ -76,4 +102,23 @@ body {
 
 /* Pages - Contact */
 
+
+/* Footer -Newsletter */
+
+
 /* Footer */
+
+footer {
+    background-color: #07474f;
+    color: #ffffff;
+}
+
+footer .nav-link {
+    color: #ffffff;
+}
+
+footer .nav-link:hover {
+    text-decoration: underline;
+    color: #fffFff;
+}
+
