@@ -1,5 +1,6 @@
 <!-- Avant footer - Newsletter -->
 
+<?php if (is_home() or is_single()) : ?>
 
 <div class="container  mb-3">
     <p class="fs-1 mb-4">Inscrivez-vous sur notre <span class="jaune">Newsletter</span> : 10% de réduction sur votre
@@ -8,14 +9,14 @@
     </p>
 </div>
 <div class="container col-lg-4 col-md-12 col-sm-12 text-center mb-5">
-    <?php if (is_home() or is_single()){
-                echo do_shortcode("[mc4wp_form id=9]");
-            }
-            ?>
+    <?php 
+            echo do_shortcode("[mc4wp_form id=9]");  
+    ?>
 </div>
 
+<?php endif; ?>
 
-<!-- footer - Blocs -->
+<!-- footer - blocks -->
 
 <footer>
     <div class="container">
@@ -87,9 +88,8 @@
             <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
                 <p>
                     <span class="text-italic">Vos données sont protégées </span>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-rgpd.png"
-                        class="img-fluid" alt="Logo - RGPD" width="50" height="50"
-                        title="Vos données sont protégées chez SailingLoc">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-rgpd.png" class="img-fluid"
+                        alt="Logo - RGPD" width="50" height="50" title="Vos données sont protégées chez SailingLoc">
                 </p>
                 <p>
                     &copy; <?php echo Date('Y') ?>
@@ -118,6 +118,8 @@
     </div>
 
 </footer>
+
+<!-- end footer -->
 
 <?php wp_footer();?>
 
