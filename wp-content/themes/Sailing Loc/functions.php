@@ -51,3 +51,5 @@ function sailingloc_change_title()
     }
 
 }
+
+?> 
