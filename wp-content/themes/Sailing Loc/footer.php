@@ -16,7 +16,7 @@
 
 <?php endif; ?>
 
-<!-- footer - blocks -->
+<!-- footer - blocs -->
 
 <footer>
     <div class="container">
