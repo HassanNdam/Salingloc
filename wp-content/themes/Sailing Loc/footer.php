@@ -1,5 +1,7 @@
 <!-- Avant footer - Newsletter -->
 
+<?php if (is_home() or is_front_page()) : ?>
+
 <div class="container  mb-3">
     <p class="fs-1 mb-4">Inscrivez-vous sur notre <span class="jaune">Newsletter</span> : 10% de réduction sur votre
         première réservation
@@ -11,6 +13,8 @@
             echo do_shortcode("[mc4wp_form id=9]");  
     ?>
 </div>
+
+<?php endif; ?>
 
 <!-- footer - blocs -->
 
