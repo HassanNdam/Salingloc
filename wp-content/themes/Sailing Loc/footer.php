@@ -58,7 +58,7 @@
                         <li class="nav-item mb-2"><a href="http://salingloc.local/avis-clients/" class="nav-link p-0"
                                 title="Nos clients parlent de nous">Avis clients</a></li>
                         <li class="nav-item mb-2"><a href="http://salingloc.local/notre-actu/" class="nav-link p-0"
-                                title="Ne manquez rien de l'actualité nautique">Notre Actualié</a></li>
+                                title="Ne manquez rien de l'actualité nautique">Notre Actualité</a></li>
                     </ul>
                 </div>
 
