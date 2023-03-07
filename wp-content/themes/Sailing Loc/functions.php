@@ -46,7 +46,7 @@ add_theme_support('post-thumbnails');
 
 function sailingloc_change_title()
 {
-    if (is_home()) {
+    if (is_home() or is_front_page()) {
         echo "SailingLoc - Le meilleur de la location de bateaux";
     }
 
