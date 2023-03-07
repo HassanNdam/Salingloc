@@ -41,24 +41,24 @@
                 <div class="col-6 col-md-2 mb-3">
                     <h5 class="mb-4">À propos</h5>
                     <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0" title="Foire Aux Questions">FAQ</a>
+                        <li class="nav-item mb-2"><a href="http://salingloc.local/faq-2/" class="nav-link p-0" title="Foire Aux Questions">FAQ</a>
                         </li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0"
+                        <li class="nav-item mb-2"><a href="http://salingloc.local/contact/" class="nav-link p-0"
                                 title="Contactez SailingLoc">Contact-nous</a></li>
                         <li class="nav-item mb-2"><a href="#" class="nav-link p-0"
                                 title="Réserver un bateau maintenant">Réserver un bateau</a></li>
                         <li class="nav-item mb-2"><a href="#" class="nav-link p-0"
                                 title="Enregistrer un bateau maintenant">Enregistrer un bateau</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0"
+                        <li class="nav-item mb-2"><a href="http://salingloc.local/politique-de-confidentialite/" class="nav-link p-0"
                                 title="Politique de confidentialité">Politique de confidentialité</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0"
-                                title="conditions générales d'utilisation.">CGU</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0" title="Mentions légales">Mentions
+                        <li class="nav-item mb-2"><a href="http://salingloc.local/cgu-cgv/" class="nav-link p-0"
+                                title="conditions générales d'utilisation.">CGU & CGV</a></li>
+                        <li class="nav-item mb-2"><a href="http://salingloc.local/nos-mentions-legales/" class="nav-link p-0" title="Mentions légales">Mentions
                                 légales</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0"
+                        <li class="nav-item mb-2"><a href="http://salingloc.local/avis-clients/" class="nav-link p-0"
                                 title="Nos clients parlent de nous">Avis clients</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0"
-                                title="Ne manquez rien de l'actualité nautique">Notre Actu</a></li>
+                        <li class="nav-item mb-2"><a href="http://salingloc.local/notre-actu/" class="nav-link p-0"
+                                title="Ne manquez rien de l'actualité nautique">Notre Actualié</a></li>
                     </ul>
                 </div>
 
