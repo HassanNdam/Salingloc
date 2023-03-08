@@ -51,7 +51,7 @@
                         <li class="nav-item mb-2"><a href="#" class="nav-link p-0"
                                 title="Enregistrer un bateau maintenant">Enregistrer un bateau</a></li>
                         <li class="nav-item mb-2"><a href="http://salingloc.local/permis-bateaux/" class="nav-link p-0"
-                                title="Passer mon permis côtier à Dieppe">Passer mon permis</a></li>
+                                title="Passer mon permis côtier à Dieppe">Passer mon permis côtier <span class="badge bg-warning text-dark">Nouveau</span></a></li>
                         <li class="nav-item mb-2"><a href="http://salingloc.local/politique-de-confidentialite/"
                                 class="nav-link p-0" title="Politique de confidentialité">Politique de
                                 confidentialité</a></li>
