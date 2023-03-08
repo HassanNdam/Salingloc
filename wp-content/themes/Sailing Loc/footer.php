@@ -32,7 +32,7 @@
                         votre permis bateau chez nous !
                     </p>
                     <a href="<?php echo get_site_url(); ?>"><img
-                            src="<?php echo get_template_directory_uri(); ?>/assets/logo/logo.png"
+                            src="<?php echo get_template_directory_uri(); ?>/assets/logo/logo_blanc.png"
                             alt="Le meilleur de la location de bateaux" width="50" height="80"
                             title="Logo de SailingLoc"></a>
                     </ul>
@@ -41,10 +41,10 @@
                 <div class="col-6 col-md-2 mb-3">
                     <h5 class="mb-4">À propos</h5>
                     <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="http://salingloc.local/faq-2/" class="nav-link p-0" title="Foire Aux Questions">FAQ</a>
+                        <li class="nav-item mb-2"><a href="http://salingloc.local/faq/" class="nav-link p-0" title="Foire Aux Questions">FAQ</a>
                         </li>
                         <li class="nav-item mb-2"><a href="http://salingloc.local/contact/" class="nav-link p-0"
-                                title="Contactez SailingLoc">Contact-nous</a></li>
+                                title="Contactez SailingLoc">Contactez-nous</a></li>
                         <li class="nav-item mb-2"><a href="#" class="nav-link p-0"
                                 title="Réserver un bateau maintenant">Réserver un bateau</a></li>
                         <li class="nav-item mb-2"><a href="#" class="nav-link p-0"
@@ -58,7 +58,7 @@
                         <li class="nav-item mb-2"><a href="http://salingloc.local/avis-clients/" class="nav-link p-0"
                                 title="Nos clients parlent de nous">Avis clients</a></li>
                         <li class="nav-item mb-2"><a href="http://salingloc.local/notre-actu/" class="nav-link p-0"
-                                title="Ne manquez rien de l'actualité nautique">Notre Actualité</a></li>
+                                title="Ne manquez rien de l'actualité nautique">Notre actualité</a></li>
                     </ul>
                 </div>
 
