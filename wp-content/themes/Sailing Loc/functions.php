@@ -1,19 +1,5 @@
-
-<!-- Fonction ajoutées (personnalisées - Themes) -->
-
 <?php
 
-//Déclarer l'emplacement des menus
-
-register_nav_menus(
-    array(
-        'main' => 'Menu principal',
-        'footer' => 'Bas de page',
-    ));
-
-// Ajout automatiquement le titre du site dans l'entête du site
-
-add_theme_support('title-tag');
 
 function sailingloc_register_assets()
 {
@@ -22,6 +8,9 @@ function sailingloc_register_assets()
 
     wp_enqueue_style('font', 'https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap', array(), '1.0');
     wp_enqueue_style('font2', 'https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap', array(), '1.0');
+    wp_enqueue_style('ms-font',"https://use.fontawesome.com/releases/v5.7.0/css/all.css", array(), 
+'5.7.0', 'All');
+
 
     // wp_enqueue_style('style', get_stylesheet_uri(), array(), '1.0');
 
@@ -52,4 +41,12 @@ function sailingloc_change_title()
 
 }
 
-?> 
+
+//Fonction vérification journée ou soirée
+
+function est_journee() {
+    $heure = date('H');
+    return ($heure >= 6 && $heure < 20);
+  }
+
+?>
