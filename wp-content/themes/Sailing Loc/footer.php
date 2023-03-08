@@ -23,7 +23,7 @@
         <footer class="py-5">
             <div class="row">
                 <div class="col-6 col-md-4 mb-3">
-                    <h5>SailingLoc</h5>
+                    <h5 class="fs-4">SailingLoc</h5>
                     <p class="mt-4">
                         SailingLoc est le premier né d’un couple passionné de sports nautiques.
                         Céline et Bernard sont un couple dieppois qui a toujours eu cette ambition de démocratiser la
@@ -39,7 +39,7 @@
                 </div>
 
                 <div class="col-6 col-md-2 mb-3">
-                    <h5 class="mb-4">À propos</h5>
+                    <h5 class="mb-4 fs-4">À propos</h5>
                     <ul class="nav flex-column">
                         <li class="nav-item mb-2"><a href="http://salingloc.local/faq/" class="nav-link p-0"
                                 title="Foire Aux Questions">FAQ</a>
@@ -68,7 +68,7 @@
                 </div>
 
                 <div class="col-6 col-md-2 mb-3">
-                    <h5 class="mb-4">Quoi louer</h5>
+                    <h5 class="mb-4 fs-4">Quoi louer</h5>
                     <ul class="nav flex-column">
                         <li class="nav-item mb-2"><a href="#" class="nav-link p-0"
                                 title="Louer - Bateaux à moteur">Bateaux à moteur</a></li>
@@ -85,7 +85,7 @@
 
                 <div class="col-md-2 offset-md-1 mb-3">
                     <form>
-                        <h5 class="mb-4">Nos destinations</h5>
+                        <h5 class="mb-4 fs-4">Destinations</h5>
                     </form>
                 </div>
             </div>
