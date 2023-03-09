@@ -60,7 +60,7 @@
                         <li class="nav-item mb-2"><a href="http://salingloc.local/nos-mentions-legales/"
                                 class="nav-link p-0" title="Mentions légales">Mentions
                                 légales</a></li>
-                        <li class="nav-item mb-2"><a href="http://salingloc.local/avis-clients/" class="nav-link p-0"
+                        <li class="nav-item mb-2"><a href="http://salingloc.local/avis-client/" class="nav-link p-0"
                                 title="Nos clients parlent de nous">Avis clients</a></li>
                         <li class="nav-item mb-2"><a href="http://salingloc.local/notre-actu/" class="nav-link p-0"
                                 title="Ne manquez rien de l'actualité nautique">Notre actualité</a></li>
