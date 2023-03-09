@@ -3,7 +3,7 @@
 <?php if (is_home() or is_front_page()) : ?>
 
 <div class="container  mb-3">
-    <p class="fs-1 mb-4">Inscrivez-vous sur notre <span class="jaune">Newsletter</span> : 10% de réduction sur votre
+    <p class="fs-1 mb-4">Inscrivez-vous sur notre <span class="orange">Newsletter</span> : 10% de réduction sur votre
         première réservation
         de bateau !
     </p>
