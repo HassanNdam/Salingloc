@@ -24,7 +24,7 @@
                             <strong class="d-inline-block mb-2 text-primary">
                                 <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
                             </strong>
-                            <div class="mb-1 text-muted">Publié le <?php echo get_the_date();?> </div>
+                            <div class="mb-1 text-muted mb-2">Publié le <?php echo get_the_date();?> </div>
                             <p class="card-text mb-auto"> <?php the_excerpt(); ?></p>
                             <p class="blog-link"><a href="<?=the_permalink();?>">Lire la suite</a></p>
                         </div>
