@@ -37,6 +37,9 @@ function sailingloc_change_title()
 {
     if (is_home() or is_front_page()) {
         echo "SailingLoc - Le meilleur de la location de bateaux";
+    }else {
+        $title = get_the_title(); 
+        echo  'SailingLoc' . ' - ' . $title; 
     }
 
 }
