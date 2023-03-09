@@ -28,10 +28,8 @@
                             <p class="card-text mb-auto"> <?php the_excerpt(); ?></p>
                             <p class="blog-link"><a href="<?=the_permalink();?>">Lire la suite</a></p>
                         </div>
-                        <div class="col-auto d-none d-lg-block">
-                            <div class="img-thumbnail">
-                                <?php the_post_thumbnail( 'thumbnail' ); ?>
-                            </div>
+                        <div class="col-auto d-none d-lg-block p-5 img-thumbnail">
+                                <?php the_post_thumbnail('custom-size');?>
                         </div>
                     </div>
                     <?php endwhile; endif; ?>
