@@ -49,4 +49,34 @@ function est_journee() {
     return ($heure >= 6 && $heure < 20);
   }
 
+
+// Ajout blog - Widget au theme 
+
+function mytheme_widgets_init() {
+    register_sidebar( array(
+        'name'          => __( 'Sidebar', 'mytheme' ),
+        'id'            => 'sidebar',
+        'description'   => __( 'Add widgets here to appear in your sidebar.', 'mytheme' ),
+        'before_widget' => '<div id="%1$s" class="widget %2$s">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h2 class="widgettitle">',
+        'after_title'   => '</h2>',
+    ) );
+}
+add_action( 'widgets_init', 'mytheme_widgets_init' );
+
+
+// Ajouter la prise en charge des images mises en avant
+
+add_theme_support('post-thumbnails');
+
+
+//Ajouter taille personnalisée image en avant
+
+add_image_size( 'custom-size', 300, 300, true );
+
+
+
+
+
 ?>
