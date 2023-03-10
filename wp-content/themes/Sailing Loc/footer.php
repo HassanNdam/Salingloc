@@ -101,7 +101,7 @@
                     SailingLoc, Tous droits réservés.
                 </p>
                 <ul class="list-unstyled d-flex">
-                    <li class="ms-2"><a href="#"><img
+                    <li class="ms-2"><a href="https://www.tiktok.com/@sailingloc?_t=8aWJgWADnGf&_r=1"><img
                                 src="<?php echo get_template_directory_uri(); ?>/assets/icone/tiktok.png"
                                 class="img-fluid" alt="Suivez-nous sur - Tiktok" width="30"
                                 title="Suivez-nous sur - Tiktok"></a></li>
@@ -109,11 +109,11 @@
                                 src="<?php echo get_template_directory_uri(); ?>/assets/icone/linkedin.png"
                                 class="img-fluid" alt="Suivez-nous sur - Linkedin" width="30"
                                 title="Suivez-nous sur - Linkedin"></a></li>
-                    <li class="ms-2"><a href="#"><img
+                    <li class="ms-2"><a href="https://www.instagram.com/sailinglocdieppe/?igshid=YmMyMTA2M2Y%3D"><img
                                 src="<?php echo get_template_directory_uri(); ?>/assets/icone/instagram.png"
                                 class="img-fluid" alt="Suivez-nous sur - Instagram" width="30"
                                 title="Suivez-nous sur - Instagram"></a></li>
-                    <li class="ms-2"><a href="#"><img
+                    <li class="ms-2"><a href="https://www.facebook.com/profile.php?id=100090579865409"><img
                                 src="<?php echo get_template_directory_uri(); ?>/assets/icone/facebook.png"
                                 class="img-fluid" alt="Suivez-nous sur - Facebook" width="30"
                                 title="Suivez-nous sur - Facebook"></a></li>
