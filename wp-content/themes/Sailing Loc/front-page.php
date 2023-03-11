@@ -1,12 +1,27 @@
 <?php get_header();?>
 
+<div class="container">
+    <h3 class="mb-5 text-center fs-1">Nos <span class="orange">meilleurs</span> bateaux !</h3>
+</div>
+
+
+<div class="container">
+    <h3 class="mb-5 text-center fs-1">Nos  <span class="orange">destinations </span> de charme !</h3>
+
+</div>
+
+
+<div class="container">
+    <h3 class="mb-5 text-center fs-1">Pourquoi <span class="orange">Sailing Loc </span> !</h3>
+</div>
 
 <!-- Affichage titre - de de notre blog -->
 
 <div class="container-fluid p-4 p-md-5 mb-5 bleu-1-bg text-white text-center">
     <h2 class="display-6 fst-italic">Naviguez à Dieppe cet été : offre incroyable ! </h2>
-    <a href="http://salingloc.local/wp-content/uploads/2023/03/Offre-location-bateau-Dieppe-ete.png" target="_blank" class="btn btn-warning btn-lg text-dark mt-4"
-        title="Offre de promotion - Location de bateau à Dieppe ">Je profite de l'offre</a>
+    <a href="http://salingloc.local/wp-content/uploads/2023/03/Offre-location-bateau-Dieppe-ete.png" target="_blank"
+        class="btn btn-warning btn-lg text-dark mt-4" title="Offre de promotion - Location de bateau à Dieppe ">Je
+        profite de l'offre</a>
 </div>
 
 <!-- Affichage des articles sur l'accueil -->

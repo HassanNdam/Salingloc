@@ -2,7 +2,7 @@
 
 
 <div class="container mb-5 text-center p-5">
-    <h3 class="mb-5 text-center fs-1">Ils <span class="orange">adorent</span> SailingLoc !</h3>
+    <h3 class="mb-5 text-center fs-1">Ils <span class="orange">adorent</span> Sailing Loc !</h3>
     <div class="row">
         <div class="col-md-6">
             <div class="card mb-3 bg-white shadow-sm border-0">
@@ -94,7 +94,7 @@
             </div>
         </div>
     </div>
-    <a href="#" class="btn btn-warning text-dark btn-lg mt-5" title="Consulter FAQ - Je suis locataire de bateau">Louer un bateau-</a>
+    <a href="#" class="btn btn-warning text-dark btn-lg mt-5" title="Consulter FAQ - Je suis locataire de bateau">Louer un bateau</a>
 </div>
 
 

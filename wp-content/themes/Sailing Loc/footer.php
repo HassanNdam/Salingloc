@@ -23,9 +23,9 @@
         <footer class="py-5">
             <div class="row">
                 <div class="col-6 col-md-4 mb-3">
-                    <h5 class="fs-4">SailingLoc</h5>
+                    <h5 class="fs-4">Sailing Loc</h5>
                     <p class="mt-4">
-                        SailingLoc est le premier né d’un couple passionné de sports nautiques.
+                        Sailing Loc est le premier né d’un couple passionné de sports nautiques.
                         Céline et Bernard sont un couple dieppois qui a toujours eu cette ambition de démocratiser la
                         location de voiliers et de bateaux. Notre service de location de bateau entre particuliers
                         offre un catalogue complet de bateaux, voiliers et des bateaux électriques. Bien mieux, obtenez

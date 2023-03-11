@@ -5,7 +5,7 @@
         <div class="row">
             <div class="col-md-8 px-0">
                 <h1 class="display-4 fst-italic">Le meilleur de l'actu de la location de bateau</h1>
-                <p class="lead mb-0 mt-4">Profitez du blog de SailingLoc : évadez-vous !</p>
+                <p class="lead mb-0 mt-4">Profitez du blog de Sailing Loc : évadez-vous !</p>
             </div>
             <div class="col-md-4 px-0">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/location-de-bateau-de-plaisance.jpg"
