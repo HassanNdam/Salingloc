@@ -105,7 +105,7 @@
                                 src="<?php echo get_template_directory_uri(); ?>/assets/icone/tiktok.png"
                                 class="img-fluid" alt="Suivez-nous sur - Tiktok" width="30"
                                 title="Suivez-nous sur - Tiktok"></a></li>
-                    <li class="ms-2"><a href="#" target="_blank"><img
+                    <li class="ms-2"><a href="https://www.linkedin.com/company/sailingloc/" target="_blank"><img
                                 src="<?php echo get_template_directory_uri(); ?>/assets/icone/linkedin.png"
                                 class="img-fluid" alt="Suivez-nous sur - Linkedin" width="30"
                                 title="Suivez-nous sur - Linkedin"></a></li>
