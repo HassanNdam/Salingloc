@@ -3,14 +3,16 @@
 
 <!-- Affichage titre - de de notre blog -->
 
-<div class="container-fluid p-4 p-md-5 mb-4 bleu-1-bg text-white text-center">
-            <h2 class="display-6 fst-italic">Le meilleur de l'actu de la location de bateau</h2>
-            <p class="lead mb-0 mt-4">Profitez du blog de SailingLoc pour vous évader !</p>
+<div class="container-fluid p-4 p-md-5 mb-5 bleu-1-bg text-white text-center">
+    <h2 class="display-6 fst-italic">Naviguez à Dieppe cet été : offre incroyable ! </h2>
+    <a href="http://salingloc.local/wp-content/uploads/2023/03/Offre-location-bateau-Dieppe-ete.png" target="_blank" class="btn btn-warning btn-lg text-dark mt-4"
+        title="Offre de promotion - Location de bateau à Dieppe ">Je profite de l'offre</a>
 </div>
 
 <!-- Affichage des articles sur l'accueil -->
 
 <div class="container">
+    <h3 class="mb-5 text-center fs-1">Le <span class="orange">Blog </span> de SailingLoc !</h3>
     <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12">
             <?php if (have_posts()): while (have_posts()): the_post();?>

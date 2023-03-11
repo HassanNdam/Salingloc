@@ -50,7 +50,7 @@
             <div class="card h-100 py-4">
                 <div class="card-body">
                     <i class="fas fa-comments mb-4"></i>
-                    <h5 class="card-title fw-bold"><a href="http://salingloc.local/avis-clients/" class="jaune"
+                    <h5 class="card-title fw-bold"><a href="http://salingloc.local/avis-client/" class="jaune"
                             title="Consulter notre blog">Ils nous adorent</a></h5>
                     <p class="card-text mt-3">Nos services de location de bateau font des heureux.</p>
                 </div>

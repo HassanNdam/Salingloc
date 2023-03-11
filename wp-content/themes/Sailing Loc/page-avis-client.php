@@ -94,8 +94,7 @@
             </div>
         </div>
     </div>
-    <a href="#" class="btn btn-warning text-dark btn-lg mt-5" title="Consulter FAQ - Je suis locataire de bateau">J'en
-        profite aussi</a>
+    <a href="#" class="btn btn-warning text-dark btn-lg mt-5" title="Consulter FAQ - Je suis locataire de bateau">Louer un bateau-</a>
 </div>
 
 

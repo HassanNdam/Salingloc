@@ -37,8 +37,21 @@ Typo : Montserrat
     color: white;
 }
 
+
+a {
+    text-decoration: none !important;
+}
+
+a:hover {
+    opacity: 0.9;
+}
+
+
+
+/* Color - colors */
+
 .bleu1 {
-    color:#0669BF ;
+    color: #0669BF;
 }
 
 .bleu2 {
@@ -46,25 +59,61 @@ Typo : Montserrat
 }
 
 .bleu3 {
-    color:#07474f ;
+    color: #07474f;
 }
 
-.jaune{
+.jaune {
     color: #F6C22D;
 }
 
-.orange{
-    color:#F27507;
+.orange {
+    color: #F27507;
 }
 
-.gris{
-    color:#F2F2F2
+.orange-2 {
+    color: #B84D0B;
 }
 
+.gris {
+    color: #F2F2F2;
+}
+
+
+/* Color - background */
+
+
+.bleu-1-bg {
+    background-color: #0669BF;
+}
+
+.bleu-2-bg {
+    background-color: #4BA4F2;
+}
+
+.bleu-3-bg {
+    background-color: #07474f;
+}
+
+.jaune-bg {
+    background-color: #F6C22D;
+}
+
+.orange-bg {
+    background-color: #F27507;
+}
+
+.orange-bg-2 {
+    background-color: #B84D0B;
+}
+
+.gris-bg {
+    background-color: #F2F2F2;
+}
 
 
 body {
-    font-family: "Montserrat", Arial, Helvetica, sans-serif !important ;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif !important;
+    text-align: justify;
 }
 
 
@@ -74,15 +123,14 @@ body {
 
 /* header */
 
-
-
 /* après-header */
 
-
-
 /* Accueil : Bloc */
 /* Accueil : Bloc */
-/* Accueil : Bloc   */
+
+
+/* Accueil : Blog */
+
 
 
 
@@ -92,9 +140,21 @@ body {
 
 /* Pages - Categories */
 
+
 /* Pages - Contact */
 
 /* Pages - Blog */
+
+
+#blog a {
+    color: #4BA4F2 !important;
+}
+
+#blog .text-blog-call {
+    color: #000000 !important;
+}
+
+
 
 /* Pages - Mentions Légales */
 
@@ -102,14 +162,30 @@ body {
 
 /* Pages - Contact */
 
+/* Pages - 404.php */
+
+
 
 /* Footer -Newsletter */
+
+
+.mc4wp-alert.mc4wp-error {
+    color: red !important;
+}
+
+.mc4wp-alert.mc4wp-success {
+    color: green !important;
+}
+
+.mc4wp-alert.mc4wp-notice {
+    color: #F27507 !important;
+}
 
 
 /* Footer */
 
 footer {
-    background-color: #07474f;
+    background-color: #0669BF;
     color: #ffffff;
 }
 
@@ -121,4 +197,3 @@ footer .nav-link:hover {
     text-decoration: underline;
     color: #fffFff;
 }
-
