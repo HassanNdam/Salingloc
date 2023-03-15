@@ -16,7 +16,7 @@
                 </div>
                 <?php endwhile; endif; ?>
                 <div class="container text-center mb-5">
-                    <a href="http://salingloc.local/contact/" target="_blank"
+                    <a href="http://salingloc.local/contact/" 
                         class="btn btn-warning btn-lg text-dark mt-4" title="Contacter - Sailing Loc ">Nous
                         contacter</a>
                 </div>
