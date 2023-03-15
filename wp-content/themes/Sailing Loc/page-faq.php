@@ -4,7 +4,7 @@
     <div class="row">
         <div class="col-sm-6 mb-3 mb-sm-0 ">
             <div class="card">
-                <div class="card-body bleu-1-bg text-white rounded-3">
+                <div class="card-body text-dark text-bg-white rounded-2 shadow-sm">
                     <i class="fas fa-anchor"></i>
                     <h5 class="card-title mt-3 mb-4">Je suis propriétaire de bateau</h5>
                     <a href="http://salingloc.local/proprietaire-faq/" class="btn btn-warning text-dark"
@@ -14,7 +14,7 @@
         </div>
         <div class="col-sm-6">
             <div class="card">
-                <div class="card-body bleu-1-bg text-white rounded-3">
+                <div class="card-body text-dark text-bg-white rounded-2 shadow-sm">
                     <i class="fas fa-anchor"></i>
                     <h5 class="card-title mt-3 mb-4">Je suis locataire de bateau</h5>
                     <a href="http://salingloc.local/locataire-faq/" class="btn btn-warning text-dark"
