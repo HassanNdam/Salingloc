@@ -1,4 +1,9 @@
-<!-- Values - before footer -->
+
+
+
+<?php if (is_home() or is_front_page()) : ?>
+
+    <!-- Values - before footer -->
 <div class="container">
     <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
         <div class="col d-flex align-items-start">
@@ -34,10 +39,7 @@
     </div>
 </div>
 
-
 <!-- Avant footer - Newsletter -->
-<?php if (is_home() or is_front_page()) : ?>
-
 <div class="container text-center">
     <div class="row">
         <div class="col-lg-6 col-md-12 col-sm-12 p-3">
@@ -54,7 +56,7 @@
             <p class="fs-5 mb-4">
                 Vous avez des questions ?
             </p>
-            <a href="http://salingloc.local/contact/" class="btn btn-warning btn-lg orange"
+            <a href="http://salingloc.local/contact/" class="btn btn-warning btn-lg"
                 title="Contactez SailingLoc Aujourd'hui">Nous écrire</a>
         </div>
     </div>
@@ -97,7 +99,7 @@
                                 title="Enregistrer un bateau maintenant">Enregistrer un bateau</a></li>
                         <li class="nav-item mb-2"><a href="http://salingloc.local/permis-bateaux/" class="nav-link p-0"
                                 title="Passer mon permis côtier à Dieppe">Passer mon permis côtier <span
-                                    class="badge bg-warning text-dark">Nouveau</span></a></li>
+                                    class="badge bg-warning text-dark jaune">Nouveau</span></a></li>
                         <li class="nav-item mb-2"><a href="http://salingloc.local/politique-de-confidentialite/"
                                 class="nav-link p-0" title="Politique de confidentialité">Politique de
                                 confidentialité</a></li>
