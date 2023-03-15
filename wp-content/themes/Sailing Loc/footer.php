@@ -6,30 +6,30 @@
     <!-- Values - before footer -->
 <div class="container">
     <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-        <div class="col d-flex align-items-start">
+        <div class="col align-items-start text-center">
             <div
                 class="icon-square bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 p-2 rounded-3">
-                <i class="fas fa-truck-monster"></i>
+                <i class="fas fa-truck-monster display-3 mb-3"></i>
             </div>
             <div>
                 <h3 class="fs-3 mb-2 ">Offre variée</h3>
                 <p>Bateaux à moteur, cataraman, jeski, bateaux électriques et bien plus.</p>
             </div>
         </div>
-        <div class="col d-flex align-items-start">
+        <div class="col align-items-start text-center">
             <div
                 class="icon-square bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 p-2 rounded-3">
-                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-check-circle display-3 mb-3"></i>
             </div>
             <div>
                 <h3 class="fs-3 mb-2">Haute disponibilité</h3>
                 <p>Vous aurez toujours de quoi faire un tour chez sailing loc !</p>
             </div>
         </div>
-        <div class="col d-flex align-items-start">
+        <div class="col align-items-start text-center">
             <div
                 class="icon-square bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 p-2 rounded-3">
-                <i class="fas fa-users"></i>
+                <i class="fas fa-users display-3 mb-3"></i>
             </div>
             <div>
                 <h3 class="fs-3 mb-2">Profils variés</h3>
