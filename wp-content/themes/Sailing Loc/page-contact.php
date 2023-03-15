@@ -4,9 +4,9 @@
     <div class="row">
         <div class="container mb-5 text-center">
             <div class="row">
-                <div class="col-sm-6 mb-3 mb-sm-0 ">
+                <div class="col-sm-6 mb-3 mb-sm-0">
                     <div class="card">
-                        <div class="card-body bleu-1-bg text-white rounded-3">
+                        <div class="card-body text-dark text-bg-white rounded-2 shadow-sm">
                             <h5 class="card-title mt-3 mb-4">Appelez-nous maintenant !</h5>
                             <?php
 
@@ -28,7 +28,7 @@
                 </div>
                 <div class="col-sm-6">
                     <div class="card">
-                        <div class="card-body bleu-1-bg text-white rounded-3">
+                        <div class="card-body text-dark text-bg-white rounded-2 shadow-sm">
                             <h5 class="card-title mt-3 mb-4">Naviguez dans notre FAQ</h5>
                             <a href="http://salingloc.local/faq/" class="btn btn-warning text-dark"
                                 title="Consulter notre FAQ"><i class="fas fa-eye"></i> Consluter</a>
