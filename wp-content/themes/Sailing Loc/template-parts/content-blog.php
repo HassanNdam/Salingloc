@@ -2,7 +2,7 @@
 <!-- Affichage des articles sur l'accueil -->
 
 <div class="container">
-    <h3 class="mb-5 text-center fs-1">Le <span class="orange">Blog </span> de Sailing Loc !</h3>
+    <h3 class="mb-5 text-center fs-1">Le <span class="bleu2">Blog </span> de Sailing Loc !</h3>
     <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12">
             <?php if (have_posts()): while (have_posts()): the_post();?>

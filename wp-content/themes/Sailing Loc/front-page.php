@@ -3,12 +3,12 @@
 
 <!-- Affichage - Nos bateaux Sailing Loc -->
 <div class="container">
-    <h3 class="mb-5 text-center fs-1">Nos <span class="orange">meilleurs</span> bateaux !</h3>
+    <h3 class="mb-5 text-center fs-1">Nos <span class="bleu2">meilleurs</span> bateaux !</h3>
 </div>
 
 <!-- Affichage - Nos destinations Sailing Loc -->
 <div class="container">
-    <h3 class="mb-5 text-center fs-1">Nos  <span class="orange">destinations </span> de charme !</h3>
+    <h3 class="mb-5 text-center fs-1">Nos  <span class="bleu2">destinations </span> de charme !</h3>
 
 </div>
 

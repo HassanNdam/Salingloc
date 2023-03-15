@@ -35,9 +35,8 @@
                     <?php endwhile; endif; ?>
                 </div>
             </div>
-
             <div class="col-md-3">
-                <div class="card-body bleu-1-bg text-white rounded-3 p-4 text-center mb-4">
+                <div class="card-body text-dark text-bg-white  rounded-3 p-4 text-center mb-4">
                     <h5 class="card-title mt-3 mb-4">Appelez-nous maintenant !</h5>
                     <?php
                             //Appel Fonction vérification journée ou soirée

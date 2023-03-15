@@ -1,11 +1,11 @@
 <!-- Affichage - Les avantages de Sailing loc -->
 
 <div class="container">
-    <h3 class="text-center fs-1">Pourquoi <span class="orange">Sailing Loc </span> !</h3>
+    <h3 class="text-center fs-1">Pourquoi <span class="bleu2">Sailing Loc </span> !</h3>
     <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
         <div class="col d-flex align-items-start">
             <div
-                class="icon-square text-bg-warning d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 p-2 rounded-3">
+                class="icon-square bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 p-2 rounded-3">
                 <i class="fas fa-dollar-sign"></i>
             </div>
             <div>
@@ -16,7 +16,7 @@
         </div>
         <div class="col d-flex align-items-start">
             <div
-                class="icon-square text-bg-warning d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 p-2 rounded-3">
+                class="icon-square bg-lightd-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 p-2 rounded-3">
                 <i class="fas fa-lock"></i>
             </div>
             <div>
@@ -27,7 +27,7 @@
         </div>
         <div class="col d-flex align-items-start">
             <div
-                class="icon-square text-bg-warning d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 p-2 rounded-3">
+                class="icon-square bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 p-2 rounded-3">
                 <i class="fas fa-question"></i>
             </div>
             <div>
@@ -40,25 +40,25 @@
 </div>
 
 <div class="container px-4 py-5" id="custom-cards">
-    <h2 class="pb-2 border-bottom text center">Notre trio parfait</h2>
+    <h2 class="pb-2 border-bottom text center bleu2">Notre trio parfait</h2>
     <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
         <div class="col">
-            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+            <div class="card card-cover h-100 overflow-hidden text-bg-white rounded-4 shadow-sm"
                 style="background-image: url('unsplash-photo-1.jpg');">
                 <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                    <h3 class="mt-5 mb-4 display-6 lh-1 fw-bold text-center">Je suis locataire</h3>
-                    <a href="#"  class="btn btn-warning btn-lg text-dark mt-4"
+                    <h3 class="mt-5 mb-4 display-6 fw-bold text-dark text-center">Je suis un locataire</h3>
+                    <a href="#"  class="btn btn-warning btn-lg text-dark mt-4 "
                         title="Louer un bateau maintenant ">Réserver un bateau</a>
                 </div>
             </div>
         </div>
 
         <div class="col">
-            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+            <div class="card card-cover h-100 overflow-hidden text-bg-white rounded-4 shadow-sm"
                 style="background-image: url('unsplash-photo-2.jpg');">
                 <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                    <h3 class="mt-5 mb-4 display-6 lh-1 fw-bold text-center">Passer un permis</h3>
-                    <a href="http://salingloc.local/permis-bateaux/"  class="btn btn-warning btn-lg text-dark mt-4"
+                    <h3 class="mt-5 mb-4 display-6  fw-bold text-dark text-center">Passer un permis</h3>
+                    <a href="http://salingloc.local/permis-bateaux/"  class="btn btn-warning btn-lg text-dark mt-4 "
                         title="Passer un permis bateau">Passer un permis bateau</a>
 
                 </div>
@@ -66,11 +66,11 @@
         </div>
 
         <div class="col">
-            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg pb-5"
+            <div class="card card-cover h-100 overflow-hidden text-bg-white  rounded-4 shadow-sm pb-5"
                 style="background-image: url('unsplash-photo-3.jpg');">
-                <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                    <h3 class="mt-5 mb-4 display-6 lh-1 fw-bold text-center">Je suis propriétaire</h3>
-                    <a href="#"  class="btn btn-warning btn-lg text-dark mt-4"
+                <div class="d-flex flex-column h-100 p-5 pb-3  text-shadow-1">
+                    <h3 class="mt-5 mb-4 display-6  fw-bold text-dark  text-center">Je suis un propriétaire</h3>
+                    <a href="#"  class="btn  btn-lg mt-4"
                         title="Ajouter un bateau en ligne ">Ajouter mon bateau</a>
                 </div>
             </div>

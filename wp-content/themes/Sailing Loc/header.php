@@ -27,12 +27,15 @@
 
 <body <?php body_class();?> class="bg-light">
 
-    <header>
-        <div class="alert alert-primary alert-dismissible fade show text-center" role="alert">
-            <strong class="fs-5">-10%</strong> sur votre première location avec le code promo  <strong class="fs-5">SAILING10</strong>
-            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-            <a href="http://salingloc.local/wp-content/uploads/2023/03/Offre-location-bateau-Dieppe-ete.png"
-                target="_blank" class=" bg-warning text-dark mt-4 p-2 rounded-2"
-                title="Offre de promotion - Location de bateau à Dieppe le mois d'Août">Consulter l'offre d'été</a>
-        </div>
-    </header>
+    <section id="header">
+        <header>
+            <div class="alert alert-primary alert-dismissible fade show text-center" role="alert">
+                <strong class="fs-5">-10%</strong> sur votre première location avec le code promo <strong
+                    class="fs-5">SAILING10</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                <a href="http://salingloc.local/wp-content/uploads/2023/03/Offre-location-bateau-Dieppe-ete.png"
+                    target="_blank" class=" bg-warning text-dark mt-4 p-2 rounded-2"
+                    title="Offre de promotion - Location de bateau à Dieppe le mois d'Août">Consulter l'offre d'été</a>
+            </div>
+        </header>
+    </section>
