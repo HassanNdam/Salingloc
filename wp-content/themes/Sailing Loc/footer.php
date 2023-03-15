@@ -1,24 +1,69 @@
-<!-- Avant footer - Newsletter -->
+<!-- Values - before footer -->
 
-<?php if (is_home() or is_front_page()) : ?>
-
-<div class="container  mb-3">
-    <p class="fs-1 mb-4">Inscrivez-vous sur notre <span class="orange">Newsletter</span> : 10% de réduction sur votre
-        première réservation
-        de bateau !
-    </p>
+<div class="container">
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="col d-flex align-items-start">
+            <div
+                class="icon-square text-bg-warning d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 p-2 rounded-3">
+                <i class="fas fa-truck-monster"></i>
+            </div>
+            <div>
+                <h3 class="fs-3 mb-2">Offre variée</h3>
+                <p>Bateaux à moteur, cataraman, jeski et bien plus.</p>
+            </div>
+        </div>
+        <div class="col d-flex align-items-start">
+            <div
+                class="icon-square text-bg-warning d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 p-2 rounded-3">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <div>
+                <h3 class="fs-3 mb-2">Haute disponibilité</h3>
+                <p>Vous aurez toujours de quoi faire un tour chez sailing loc !</p>
+            </div>
+        </div>
+        <div class="col d-flex align-items-start">
+            <div
+                class="icon-square text-bg-warning d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 p-2 rounded-3">
+                <i class="fas fa-users"></i>
+            </div>
+            <div>
+                <h3 class="fs-3 mb-2">Profils variés</h3>
+                <p>Amateurs, professionnels ou juste curieux ?Nos bateaux et voiliers vous attendent.  </p>
+            </div>
+        </div>
+    </div>
 </div>
-<div class="container col-lg-4 col-md-12 col-sm-12 text-center mb-5">
-    <?php 
-            echo do_shortcode("[mc4wp_form id=9]");  
-    ?>
-</div>
-
-<?php endif; ?>
 
 <!-- footer - blocs -->
-
 <footer>
+
+    <!-- Avant footer - Newsletter -->
+    <?php if (is_home() or is_front_page()) : ?>
+
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12 p-3">
+                <p class="fs-5 fw-bold mb-4">Abonnez-vous à la newsletter !
+                </p>
+                <?php 
+            echo do_shortcode("[mc4wp_form id=9]");  
+    ?>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 p-3">
+                <div class="display-6 mb-4">
+                    Contact
+                </div>
+                <p class="fs-5 mb-4">
+                    Vous avez des questions ?
+                </p>
+                <a href="http://salingloc.local/contact/" class="btn btn-warning btn-lg orange"
+                    title="Contactez SailingLoc Aujourd'hui">Nous écrire</a>
+            </div>
+        </div>
+    </div>
+
+    <?php endif; ?>
     <div class="container">
         <footer class="py-5">
             <div class="row">
@@ -125,7 +170,7 @@
                 </ul>
             </div>
             <div>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/moyen-paiement.png" class="img-fluid"
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/moyen-paiement.png" class="img-fluid"
                     alt="Logo - RGPD" width="200" height="50" title="Vos données sont protégées chez SailingLoc">
             </div>
         </footer> <!-- end footer -->
