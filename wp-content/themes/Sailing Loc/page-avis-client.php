@@ -94,7 +94,7 @@
             </div>
         </div>
     </div>
-    <a href="#" class="btn btn-warning text-dark btn-lg mt-5" title="Voir les avis sur sailing loc">Voir tous avis sailing loc</a>
+    <a href="http://salingloc.local/avis-client/" class="btn btn-warning text-dark btn-lg mt-5" title="Voir les avis sur sailing loc">Voir tous avis sailing loc</a>
 </div>
 
 
