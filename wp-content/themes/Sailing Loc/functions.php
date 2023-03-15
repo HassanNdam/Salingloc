@@ -46,7 +46,6 @@ function sailingloc_change_title()
 
 
 //Fonction vérification journée ou soirée
-
 function est_journee() {
     $heure = date('H');
     return ($heure >= 6 && $heure < 20);

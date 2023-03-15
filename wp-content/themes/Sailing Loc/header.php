@@ -3,15 +3,18 @@
 
 <head>
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-REBBZRQE59"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-REBBZRQE59"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'G-REBBZRQE59');
-</script>
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-REBBZRQE59');
+    </script>
 
     <meta charset="<?php bloginfo('chars+et');?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,7 +29,10 @@
 
     <header>
         <div class="alert alert-primary alert-dismissible fade show text-center" role="alert">
-            <strong>-10%</strong> sur votre première location avec le code promo SAILING10
+            <strong class="fs-5">-10%</strong> sur votre première location avec le code promo  <strong class="fs-5">SAILING10</strong>
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            <a href="http://salingloc.local/wp-content/uploads/2023/03/Offre-location-bateau-Dieppe-ete.png"
+                target="_blank" class=" bg-warning text-dark mt-4 p-2 rounded-2"
+                title="Offre de promotion - Location de bateau à Dieppe le mois d'Août">Consulter l'offre d'été</a>
         </div>
     </header>
