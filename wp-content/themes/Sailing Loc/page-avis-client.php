@@ -94,7 +94,7 @@
             </div>
         </div>
     </div>
-    <a href="#" class="btn btn-warning text-dark btn-lg mt-5" title="Consulter FAQ - Je suis locataire de bateau">Louer un bateau</a>
+    <a href="#" class="btn btn-warning text-dark btn-lg mt-5" title="Voir les avis sur sailing loc">Voir tous avis sailing loc</a>
 </div>
 
 
