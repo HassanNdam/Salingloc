@@ -8,17 +8,17 @@
     <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
         <div class="col d-flex align-items-start">
             <div
-                class="icon-square text-bg-warning d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 p-2 rounded-3">
+                class="icon-square bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 p-2 rounded-3">
                 <i class="fas fa-truck-monster"></i>
             </div>
             <div>
-                <h3 class="fs-3 mb-2">Offre variée</h3>
-                <p>Bateaux à moteur, cataraman, jeski et bien plus.</p>
+                <h3 class="fs-3 mb-2 ">Offre variée</h3>
+                <p>Bateaux à moteur, cataraman, jeski, bateaux électriques et bien plus.</p>
             </div>
         </div>
         <div class="col d-flex align-items-start">
             <div
-                class="icon-square text-bg-warning d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 p-2 rounded-3">
+                class="icon-square bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 p-2 rounded-3">
                 <i class="fas fa-check-circle"></i>
             </div>
             <div>
@@ -28,12 +28,12 @@
         </div>
         <div class="col d-flex align-items-start">
             <div
-                class="icon-square text-bg-warning d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 p-2 rounded-3">
+                class="icon-square bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 p-2 rounded-3">
                 <i class="fas fa-users"></i>
             </div>
             <div>
                 <h3 class="fs-3 mb-2">Profils variés</h3>
-                <p>Amateurs, professionnels ou juste curieux ?Nos bateaux et voiliers vous attendent. </p>
+                <p>Amateurs, professionnels ou juste curieux ? Nos bateaux et voiliers vous attendent. </p>
             </div>
         </div>
     </div>
