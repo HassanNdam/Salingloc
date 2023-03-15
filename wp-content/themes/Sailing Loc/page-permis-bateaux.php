@@ -11,7 +11,6 @@
                             <?php
 
                             //Appel Fonction vérification journée ou soirée
-
                             if (est_journee()): ?>
 
                             <a href="tel:+0783587928" class="btn btn-warning text-dark" title="Appeler - SailingLoc"><i
@@ -31,7 +30,7 @@
                     <div class="card">
                         <div class="card-body bleu-1-bg text-white rounded-3">
                             <h5 class="card-title mt-3 mb-4">Naviguez dans notre FAQ</h5>
-                            <a href="http://salingloc.local/locataire-faq/" class="btn btn-warning text-dark"
+                            <a href="http://salingloc.local/faq/" class="btn btn-warning text-dark"
                                 title="Consulter notre FAQ"><i class="fas fa-eye"></i> Consluter</a>
                         </div>
                     </div>

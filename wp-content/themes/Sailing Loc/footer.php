@@ -51,7 +51,8 @@
                         <li class="nav-item mb-2"><a href="#" class="nav-link p-0"
                                 title="Enregistrer un bateau maintenant">Enregistrer un bateau</a></li>
                         <li class="nav-item mb-2"><a href="http://salingloc.local/permis-bateaux/" class="nav-link p-0"
-                                title="Passer mon permis côtier à Dieppe">Passer mon permis côtier <span class="badge bg-warning text-dark">Nouveau</span></a></li>
+                                title="Passer mon permis côtier à Dieppe">Passer mon permis côtier <span
+                                    class="badge bg-warning text-dark">Nouveau</span></a></li>
                         <li class="nav-item mb-2"><a href="http://salingloc.local/politique-de-confidentialite/"
                                 class="nav-link p-0" title="Politique de confidentialité">Politique de
                                 confidentialité</a></li>
@@ -100,8 +101,10 @@
                     &copy; <?php echo Date('Y') ?>
                     SailingLoc, Tous droits réservés.
                 </p>
+
                 <ul class="list-unstyled d-flex">
-                    <li class="ms-2"><a href="https://www.tiktok.com/@sailingloc?_t=8aWJgWADnGf&_r=1" target="_blank"><img
+                    <li class="ms-2"><a href="https://www.tiktok.com/@sailingloc?_t=8aWJgWADnGf&_r=1"
+                            target="_blank"><img
                                 src="<?php echo get_template_directory_uri(); ?>/assets/icone/tiktok.png"
                                 class="img-fluid" alt="Suivez-nous sur - Tiktok" width="30"
                                 title="Suivez-nous sur - Tiktok"></a></li>
@@ -109,35 +112,39 @@
                                 src="<?php echo get_template_directory_uri(); ?>/assets/icone/linkedin.png"
                                 class="img-fluid" alt="Suivez-nous sur - Linkedin" width="30"
                                 title="Suivez-nous sur - Linkedin"></a></li>
-                    <li class="ms-2"><a href="https://www.instagram.com/sailinglocdieppe/?igshid=YmMyMTA2M2Y%3D" target="_blank"><img
+                    <li class="ms-2"><a href="https://www.instagram.com/sailinglocdieppe/?igshid=YmMyMTA2M2Y%3D"
+                            target="_blank"><img
                                 src="<?php echo get_template_directory_uri(); ?>/assets/icone/instagram.png"
                                 class="img-fluid" alt="Suivez-nous sur - Instagram" width="30"
                                 title="Suivez-nous sur - Instagram"></a></li>
-                    <li class="ms-2"><a href="https://www.facebook.com/profile.php?id=100090579865409" target="_blank"><img
+                    <li class="ms-2"><a href="https://www.facebook.com/profile.php?id=100090579865409"
+                            target="_blank"><img
                                 src="<?php echo get_template_directory_uri(); ?>/assets/icone/facebook.png"
                                 class="img-fluid" alt="Suivez-nous sur - Facebook" width="30"
                                 title="Suivez-nous sur - Facebook"></a></li>
                 </ul>
             </div>
-        </footer>
-    </div>
+            <div>
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/moyen-paiement.png" class="img-fluid"
+                    alt="Logo - RGPD" width="200" height="50" title="Vos données sont protégées chez SailingLoc">
+            </div>
+        </footer> <!-- end footer -->
 
-</footer>
+        <?php wp_footer();?>
 
-<!-- end footer -->
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-REBBZRQE59"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
 
-<?php wp_footer();?>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-REBBZRQE59"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+        gtag('config', 'G-REBBZRQE59');
+        </script>
 
-  gtag('config', 'G-REBBZRQE59');
-</script>
+        </body>
 
-</body>
-
-</html>
+        </html>

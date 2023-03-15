@@ -32,7 +32,6 @@ add_theme_support('post-thumbnails');
 
 
 // Fonction changement de titre
-
 function sailingloc_change_title()
 {
     if (is_home() or is_front_page()) {
@@ -53,7 +52,6 @@ function est_journee() {
 
 
 // Ajout blog - Widget au theme 
-
 function mytheme_widgets_init() {
     register_sidebar( array(
         'name'          => __( 'Sidebar', 'mytheme' ),
@@ -69,12 +67,10 @@ add_action( 'widgets_init', 'mytheme_widgets_init' );
 
 
 // Ajouter la prise en charge des images mises en avant
-
 add_theme_support('post-thumbnails');
 
 
 //Ajouter taille personnalisée image en avant
-
 add_image_size( 'custom-size', 300, 300, true );
 
 
