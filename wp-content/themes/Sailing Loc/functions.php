@@ -74,6 +74,45 @@ add_theme_support('post-thumbnails');
 add_image_size( 'custom-size', 300, 300, true );
 
 
+// Ajout fil d'ariane
+function custom_breadcrumb() {
+    global $post;
+    echo '<nav aria-label="breadcrumb">';
+    echo '<ol class="breadcrumb">';
+    if (!is_home()) {
+        echo '<li class="breadcrumb-item"><a href="'.home_url().'">'.__('Accueil', 'textdomain').'</a></li>';
+        if (is_category() || is_single()) {
+            echo '<li class="breadcrumb-item">';
+            the_category('</li><li class="breadcrumb-item">');
+            echo '</li>';
+            if (is_single()) {
+                echo '<li class="breadcrumb-item active" aria-current="page">';
+                the_title();
+                echo '</li>';
+            }
+        } elseif (is_page()) {
+            if($post->post_parent){
+                $anc = get_post_ancestors( $post->ID );
+                $anc = array_reverse($anc);
+                foreach ( $anc as $ancestor ) {
+                    echo '<li class="breadcrumb-item"><a href="'.get_permalink($ancestor).'">'.get_the_title($ancestor).'</a></li>';
+                }
+            }
+            echo '<li class="breadcrumb-item active" aria-current="page">'.get_the_title().'</li>';
+        }
+    }
+    elseif (is_tag()) {single_tag_title();}
+    elseif (is_day()) {echo"<li class='breadcrumb-item'>".get_the_time('Y')."</li><li class='breadcrumb-item'>".get_the_time('F')."</li><li class='breadcrumb-item active' aria-current='page'>".get_the_time('d')."</li>";}
+    elseif (is_month()) {echo"<li class='breadcrumb-item'>".get_the_time('Y')."</li><li class='breadcrumb-item active' aria-current='page'>".get_the_time('F')."</li>";}
+    elseif (is_year()) {echo"<li class='breadcrumb-item active' aria-current='page'>".get_the_time('Y')."</li>";}
+    elseif (is_author()) {echo"<li class='breadcrumb-item active' aria-current='page'>".get_the_author()."</li>";}
+    elseif (isset($_GET['paged']) && !empty($_GET['paged'])) {echo "<li class='breadcrumb-item active' aria-current='page'>".__('Page').' '.$_GET['paged']."</li>";}
+    elseif (is_search()) {echo "<li class='breadcrumb-item active' aria-current='page'>".__('Search results for: ', 'textdomain').get_search_query()."</li>";}
+    echo '</ol>';
+    echo '</nav>';
+}
+
+
 
 
 
