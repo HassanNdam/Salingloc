@@ -51,10 +51,11 @@ body {
     text-align: justify !important;
 }
 
-.btn{
+.btn {
     background-color: #4BA4F2 !important;
     border: none !important;
-    font-weight: 500 !important; ;
+    font-weight: 500 !important;
+    ;
 }
 
 
@@ -123,21 +124,33 @@ body {
 }
 
 
-/* Avant-Header */
 
 
 
 /* header */
 
-/* après-header */
+.header-photo-home {
+    background: url(assets/img/location-jeski-ete-dieppe.jpg);
+    height: 650px;
+    background-position: center;
+    background-size: cover;
 
-/* Accueil : Bloc */
-/* Accueil : Bloc */
+}
 
 
-/* Accueil : Blog */
+
+/* Réservation */
 
 
+/* Header - Page - Image  */
+
+.header-photo-page {
+    background: url(assets/img/reservation-bateau-a-Dieppe-et-en-France.jpg);
+    height: 500px !important;
+    background-position: center !important;
+    background-size: cover !important;
+
+}
 
 
 /* Pages - Produit */
@@ -151,9 +164,23 @@ body {
 
 /* Pages - Blog */
 
+.header-photo-actu{
+    background: url(assets/img/location-voilier-sans-permis.jpg);
+    height: 500px !important;
+    background-position: center !important;
+    background-size: cover !important;
 
-#blog a {
-    color: #4BA4F2 !important;
+}
+
+
+.link-post{
+    color: #000000;
+    opacity: 0.8; 
+}
+
+#blog .link-post {
+    color: #000000;
+    opacity: 0.8;
 }
 
 #blog .text-blog-call {
@@ -169,6 +196,16 @@ body {
 /* Pages - Contact */
 
 /* Pages - 404.php */
+
+
+/* Pages - Single Post  */
+
+.header-photo-single {
+    background: url(assets/img/louer-un-bateau-pour-une-journee.jpg) no-repeat;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
 
 
 
