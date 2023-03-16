@@ -56,7 +56,7 @@
             <p class="fs-5 mb-4">
                 Vous avez des questions ?
             </p>
-            <a href="http://salingloc.local/contact/" class="btn btn-warning btn-lg"
+            <a href="http://salingloc.local/contact/" class="btn btn-warning btn-lg text-dark"
                 title="Contactez SailingLoc Aujourd'hui">Nous écrire</a>
         </div>
     </div>
