@@ -11,7 +11,7 @@
                 offre un catalogue complet de bateaux, voiliers et des bateaux électriques. Si vous n'avez aucun plan
                 pour cet été alors voici l'occasion !
             </p>
-            <a href="#"
+            <a href="http://salingloc.local/reserver-un-bateau/"
                 class="btn btn-warning btn-lg jaune-bg" title="Louer un bateau à Dieppe en été">Omum j'en profite !</a>
         </div>
     </div>

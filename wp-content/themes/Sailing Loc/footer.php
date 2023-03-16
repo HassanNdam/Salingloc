@@ -93,9 +93,9 @@
                         </li>
                         <li class="nav-item mb-2"><a href="http://salingloc.local/contact/" class="nav-link p-0"
                                 title="Contactez SailingLoc">Contactez-nous</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0"
+                        <li class="nav-item mb-2"><a href="http://salingloc.local/reserver-un-bateau/" class="nav-link p-0"
                                 title="Réserver un bateau maintenant">Réserver un bateau</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0"
+                        <li class="nav-item mb-2"><a href="http://salingloc.local/ajouter-un-bate/" class="nav-link p-0"
                                 title="Enregistrer un bateau maintenant">Enregistrer un bateau</a></li>
                         <li class="nav-item mb-2"><a href="http://salingloc.local/permis-bateaux/" class="nav-link p-0"
                                 title="Passer mon permis côtier à Dieppe">Passer mon permis côtier <span
