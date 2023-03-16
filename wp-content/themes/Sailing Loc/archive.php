@@ -4,7 +4,7 @@
     <div class="container p-4 p-md-5 mb-5 rounded bleu-1-bg text-white">
         <div class="row">
             <div class="col-md-8 px-0">
-                <h1 class="display-4 fst-italic">Le meilleur de l'actu de la location de bateau</h1>
+                <h1 class="display-4">Le meilleur de l'actu de la location de bateau</h1>
                 <p class="lead mb-0 mt-4">Profitez du blog de Sailing Loc : évadez-vous !</p>
             </div>
             <div class="col-md-4 px-0">
@@ -16,16 +16,16 @@
     
     <div class="container mb-4">
         <div class="row">
-            <div class="col-md-9">
+            <div class="col-lg-12 col-md-12">
                 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
                 <div <?php post_class(); ?>>
                     <div class="row g-0 rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                         <div class="col p-4 d-flex flex-column position-static">
                             <strong class="d-inline-block mb-2 text-primary">
-                                <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+                                <h2><a class="link-post" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
                             </strong>
-                            <div class="mb-1 text-muted mb-2">Publié le <?php echo get_the_date();?> </div>
-                            <p class="card-text mb-auto"> <?php the_excerpt(); ?></p>
+                            <div class="mb-1 text-muted">Publié le <?php echo get_the_date();?> </div>
+                            <p class="card-text"> <?php the_excerpt(); ?></p>
                             <p class="blog-link"><a href="<?=the_permalink();?>">Lire la suite</a></p>
                         </div>
                         <div class="col-auto d-none d-lg-block p-5 img-thumbnail">
@@ -35,7 +35,7 @@
                     <?php endwhile; endif; ?>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-lg-12 col-md-12 col-sm-10">
                 <div class="card-body text-dark text-bg-white  rounded-3 p-4 text-center mb-4">
                     <h5 class="card-title mt-3 mb-4">Appelez-nous maintenant !</h5>
                     <?php
