@@ -27,15 +27,63 @@
 
 <body <?php body_class();?> class="bg-light">
 
-    <section id="header">
-        <header>
-            <div class="alert alert-primary alert-dismissible fade show text-center" role="alert">
-                <strong class="fs-5">-10%</strong> sur votre première location avec le code promo <strong
-                    class="fs-5">SAILING10</strong>
-                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                <a href="http://salingloc.local/wp-content/uploads/2023/03/Offre-location-bateau-Dieppe-ete.png"
-                    target="_blank" class=" bg-warning text-dark mt-4 p-2 rounded-2"
-                    title="Offre de promotion - Location de bateau à Dieppe le mois d'Août">Consulter l'offre d'été</a>
+    <!-- Affichage header all pages -->
+    <?php get_template_part('template-parts/header-all-page'); ?>
+
+    <!-- Affichage header page accueil -->
+    <?php if (is_front_page()): ?>
+
+    <?php get_template_part('template-parts/header-front-page');?>
+
+    <!-- Affichage header single_post -->
+    <?php elseif (is_single()): ?>
+
+    <section class="container-fluid py-5 mb-5 text-center d-flex header-photo-single">
+        <div class="row py-lg-5">
+            <div class="col-lg-8 col-md-8 col-sm-6 mx-auto bg-white rounded-3 shadow-sm p-5 text-start">
+                <h1 class="bleu2"><?php echo get_the_title(); ?> </h1>
+
             </div>
-        </header>
+        </div>
     </section>
+
+    <!-- Affichage header single_post -->
+    <?php elseif (is_page() && !is_front_page()): ?>
+
+    <section class="container-fluid py-5 mb-5 text-center header-photo-page">
+        <div class="row py-lg-5">
+            <div class="col-lg-8 col-md-8 col-sm-6 mx-auto bg-white rounded-3 shadow-sm p-4 text-start">
+                <h1 class="bleu2"><?php echo get_the_title(); ?> </h1>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Affichage header single_post -->
+    <?php elseif (is_home() && !is_front_page()): ?>
+
+    <section class="container-fluid py-5 mb-5 text-center d-flex header-photo-actu">
+        <div class="row py-lg-5">
+            <div class="col-lg-8 col-md-8 col-sm-6 mx-auto bg-white rounded-3 shadow-sm p-5 text-start">
+                <?php
+                        $page_for_posts_id = get_option('page_for_posts'); // Récupérez l'ID de la page blog
+                        $title = get_the_title($page_for_posts_id); // Récupérez le titre de la page blog
+                        echo '<h1>' . $title . '</h1>'; // Affichez le titre de la page blog
+                ?>
+
+            </div>
+        </div>
+    </section>
+
+    <?php endif;?>
+
+    <!-- Affichage fil d'ariane -->
+    <div class="container mb-4 mt-5">
+        <?php
+
+    if (!is_front_page()) {
+        custom_breadcrumb();
+    }
+
+    ?>
+    </div>
