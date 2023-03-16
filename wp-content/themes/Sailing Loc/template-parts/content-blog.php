@@ -20,7 +20,7 @@
                 <div class="row g-0 rounded overflow-hidden flex-md-row mb-4 shadow h-md-250 position-relative">
                     <div class="col p-5 d-flex flex-column position-static">
                         <strong class="d-inline-block mb-2 text-primary">
-                            <h2><a href="<?php the_permalink();?>" class="bleu1"><?php the_title();?></a></h2>
+                            <h2><a href="<?php the_permalink();?>" class="link-post"><?php the_title();?></a></h2>
                         </strong>
                         <div class="mb-1 text-muted mb-2">Publié le <?php echo get_the_date(); ?> </div>
                         <p class="card-text mb-auto"> <?php the_excerpt();?></p>
