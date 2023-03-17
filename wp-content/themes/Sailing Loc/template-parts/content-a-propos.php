@@ -1,6 +1,6 @@
 <!-- Affichage - Les avantages de Sailing loc -->
 
-<div class="container">
+<div class="container mt-5">
     <h3 class="text-center fs-1">Pourquoi <span class="bleu2">Sailing Loc </span> !</h3>
     <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
         <div class="col align-items-start text-center">
@@ -47,7 +47,7 @@
                 style="background-image: url('unsplash-photo-1.jpg');">
                 <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                     <h3 class="mt-5 mb-4 display-5 text-dark text-center">Louer</h3>
-                    <a href="http://salingloc.local/reserver-un-bateau/"  class="btn btn-warning btn-lg text-dark mt-4 "
+                    <a href="http://salingloc.local/nos-bateaux/"  class="btn btn-warning btn-lg text-dark mt-4 "
                         title="Louer un bateau maintenant ">Réserver</a>
                 </div>
             </div>
@@ -70,7 +70,7 @@
                 style="background-image: url('unsplash-photo-3.jpg');">
                 <div class="d-flex flex-column h-100 p-5 pb-3  text-shadow-1">
                     <h3 class="mt-5 mb-4 display-5 text-dark text-center">Propriétaire</h3>
-                    <a href="http://salingloc.local/ajouter-un-bate/"  class="btn  btn-lg mt-4"
+                    <a href="http://salingloc.local/vendor-register/"  class="btn  btn-lg mt-4"
                         title="Ajouter un bateau en ligne ">Ajouter un bateau</a>
                 </div>
             </div>

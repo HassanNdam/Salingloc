@@ -153,6 +153,16 @@ body {
 }
 
 
+/* Bloc destination Dieppe */
+
+.header-photo-page-dieppe {
+    background: url(assets/img/reservation-bateau-a-Dieppe-et-en-France.jpg);
+    height: 420px !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+
 /* Pages - Produit */
 
 /* Pages - FAQ */
@@ -164,7 +174,7 @@ body {
 
 /* Pages - Blog */
 
-.header-photo-actu{
+.header-photo-actu {
     background: url(assets/img/location-voilier-sans-permis.jpg);
     height: 500px !important;
     background-position: center !important;
@@ -173,9 +183,9 @@ body {
 }
 
 
-.link-post{
+.link-post {
     color: #000000;
-    opacity: 0.8; 
+    opacity: 0.8;
 }
 
 #blog .link-post {

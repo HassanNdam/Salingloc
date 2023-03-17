@@ -23,7 +23,7 @@
              </a>
 
              <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-                 <li><a href="http://salingloc.local/ajouter-un-bate/" class="nav-link px-2 link-dark  fs-5"
+                 <li><a href="http://salingloc.local/vendor-register/" class="nav-link px-2 link-dark  fs-5"
                          title="Ajouter un bateau en ligne">
                          Ajouter un bateau</a>
                  </li>
@@ -43,7 +43,7 @@
 
              <!-- Gestion login & Page -->
              <div class="col-md-3 text-end">
-                 <a href="http://salingloc.local/reserver-un-bateau/">
+                 <a href="http://salingloc.local/nos-bateaux/">
                      <button type="button" class="btn jaune-bg" title="Réserver un bateau maintenant ">Réserver un
                          bateau</button>
                  </a>

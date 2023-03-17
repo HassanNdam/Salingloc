@@ -112,6 +112,41 @@ function custom_breadcrumb() {
     echo '</nav>';
 }
 
+// Fonction ajout roles
+function sailingloc_add_custom_role(){
+    $capabilities = array(
+        'edit_posts' => true,  
+        'delete_posts' => true, 
+        'edit_pages' => true, 
+        'read' => true,
+    ); 
+
+    add_role('locataire', 'Locataire', $capabilities); 
+    add_role('proprietaire', 'Proriétaire', $capabilities); 
+}
+
+add_action('init', 'sailingloc_add_custom_role'); 
+
+//Changement du texte sale
+function my_custom_sale_flash( $html, $post, $product ) {
+    if ( $product->is_on_sale() ) {
+        $html = '<span class="onsale">' . __( 'À Louer', 'woocommerce' ) . '</span>';
+    }
+    return $html;
+}
+add_filter( 'woocommerce_sale_flash', 'my_custom_sale_flash', 10, 3 );
+
+//Changement du texte Add to cart
+add_filter( 'woocommerce_product_single_add_to_cart_text', 'custom_cart_button_text' );    // Change single product page add to cart text
+add_filter( 'woocommerce_product_add_to_cart_text', 'custom_cart_button_text' );          // Change product archives (shop, category) add to cart text
+
+function custom_cart_button_text() {
+    return __( 'Ajouter ce bateau au panier', 'woocommerce' );
+}
+
+
+
+
 
 
 

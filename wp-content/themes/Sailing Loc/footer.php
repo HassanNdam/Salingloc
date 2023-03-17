@@ -1,9 +1,6 @@
-
-
-
 <?php if (is_home() or is_front_page()) : ?>
 
-    <!-- Values - before footer -->
+<!-- Values - before footer -->
 <div class="container">
     <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
         <div class="col align-items-start text-center">
@@ -93,9 +90,9 @@
                         </li>
                         <li class="nav-item mb-2"><a href="http://salingloc.local/contact/" class="nav-link p-0"
                                 title="Contactez SailingLoc">Contactez-nous</a></li>
-                        <li class="nav-item mb-2"><a href="http://salingloc.local/reserver-un-bateau/" class="nav-link p-0"
-                                title="Réserver un bateau maintenant">Réserver un bateau</a></li>
-                        <li class="nav-item mb-2"><a href="http://salingloc.local/ajouter-un-bate/" class="nav-link p-0"
+                        <li class="nav-item mb-2"><a href="http://salingloc.local/nos-bateaux/"
+                                class="nav-link p-0" title="Réserver un bateau maintenant">Réserver un bateau</a></li>
+                        <li class="nav-item mb-2"><a href="http://salingloc.local/vendor-register/" class="nav-link p-0"
                                 title="Enregistrer un bateau maintenant">Enregistrer un bateau</a></li>
                         <li class="nav-item mb-2"><a href="http://salingloc.local/permis-bateaux/" class="nav-link p-0"
                                 title="Passer mon permis côtier à Dieppe">Passer mon permis côtier <span
@@ -118,23 +115,27 @@
                 <div class="col-6 col-md-2 mb-3">
                     <h5 class="mb-4 fs-4">Quoi louer</h5>
                     <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0"
-                                title="Louer - Bateaux à moteur">Bateaux à moteur</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0" title="Louer - Voiliers">Voiliers</a>
+                        <li class="nav-item mb-2"><a href="http://salingloc.local/product-category/bateau-a-moteur/"
+                                class="nav-link p-0" title="Louer - Bateaux à moteur">Bateaux à moteur</a></li>
+                        <li class="nav-item mb-2"><a href="http://salingloc.local/product-category/voiliers/"
+                                class="nav-link p-0" title="Louer - Voiliers">Voiliers</a>
                         </li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0"
-                                title="Louer - Catamarans">Catamarans</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0" title="Louer - Jet Ski">Jet Ski</a>
+                        <li class="nav-item mb-2"><a href="http://salingloc.local/product-category/catamarans/"
+                                class="nav-link p-0" title="Louer - Catamarans">Catamarans</a></li>
+                        <li class="nav-item mb-2"><a href="http://salingloc.local/product-category/jet-ski/"
+                                class="nav-link p-0" title="Louer - Jet Ski">Jet Ski</a>
                         </li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0"
-                                title="Louer - Bateaux électriques">Bateaux électriques</a></li>
+                        <li class="nav-item mb-2"><a href="http://salingloc.local/product-category/bateaux-electriques/"
+                                class="nav-link p-0" title="Louer - Bateaux électriques">Bateaux électriques</a></li>
                     </ul>
                 </div>
 
                 <div class="col-md-2 offset-md-1 mb-3">
-                    <form>
-                        <h5 class="mb-4 fs-4">Destinations</h5>
-                    </form>
+                    <h5 class="mb-4 fs-4">Destination</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="https://www.youtube.com/watch?v=D0QE0mV1aYI&ab_channel=Jean-LucVERLHAC"
+                                class="nav-link p-0" title="Découvrir Dieppe en Normandie">Découvrir Dieppe</a></li>
+                    </ul>
                 </div>
             </div>
 
